@@ -4,139 +4,116 @@ date: 2023-10-24
 type: landing
 
 design:
-  # Default section spacing
   spacing: "6rem"
 
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: MROSSE I.T Services
+      text: |
+        Welcome to MROSSE I.T Services, your trusted partner for comprehensive and innovative IT solutions. 
+        We are dedicated to empowering businesses of all sizes with cutting-edge technology services that 
+        drive efficiency, security, and growth.
       primary_action:
         text: Get Started
-        url: https://hugoblox.com/templates/
+        url: https://mrosse.com/
         icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
         color: "navy"
         image:
-          # Add your image background to `assets/media/`.
           filename: bg-triangles.svg
           filters:
-            brightness: 0.5
-  - block: stats
-    content:
-      items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
+            brightness: 0.9
+
   - block: features
-    id: features
+    id: why-us
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: Why Choose Us?
+      text: Gain a competitive edge with our specialized IT services.
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+        - name: Increased Efficiency
+          icon: rocket-launch
+          description: Unlock higher productivity by streamlining your operations with our optimized IT solutions. We reduce downtime and ensure smoother workflows, so your team can focus on what matters most.
+
+        - name: Innovation and Future-Readiness
           icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+          description: Stay ahead of the competition by adopting the latest technologies and innovative IT practices. Our solutions are designed to prepare your business for the future, ensuring long-term success and adaptability in an ever-changing digital landscape.
+
+        - name: Enhanced Security
+          icon: shield-check
+          description: Protect your business with cutting-edge cybersecurity solutions, preventing data breaches and cyber threats.
+
+        - name: Cost Optimization
+          icon: currency-dollar
+          description: Reduce IT expenses with scalable and cost-effective solutions tailored to your business needs.
+
+        - name: Scalable Solutions for Growth
+          icon: arrow-trending-up
+          description: As your business evolves, so do your IT needs. Our flexible services grow with you, offering solutions that can be easily adapted to future demands, keeping you ahead of the curve.
+
+        - name: Expert Support & Guidance
+          icon: chat-bubble-left-right
+          description: With MROSSE I.T Services, you gain more than just a service provider. Our experts collaborate with you to understand your unique challenges, delivering IT strategies and solutions that align perfectly with your business goals.
+
   - block: cta-image-paragraph
     id: solutions
     content:
       items:
-        - title: Build your future-proof website
-          text: As easy as 1, 2, 3!
-          feature_icon: check
-          features:
-            - "Future-proof - edit your content in text files"
-            - "Website is generated by a single app, Hugo"
-            - "No JavaScript knowledge required"
-          # Upload image to `assets/media/` and reference the filename here
+        - title: IT Strategy Consulting
+          text: Align your technology initiatives with your business objectives through our expert consulting services. We collaborate with you to develop a strategic IT roadmap tailored to your unique needs.
+          feature_icon: light-bulb
           image: build-website.png
-          button:
-            text: Get Started
-            url: https://hugoblox.com/templates/
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
-          feature_icon: bolt
-          features:
-            - "Dedicated support channel"
-            - "3,000+ users on Discord"
-            - "Share your site and get feedback"
-          # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
-          button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
+
+        - title: Cloud Computing Solutions
+          text: Enhance flexibility and scalability with our cloud services. From seamless migration to efficient deployment and ongoing management, we ensure your transition to the cloud is smooth and beneficial.
+          feature_icon: cloud
+          image: build-website.png
+
+        - title: Cybersecurity Services
+          text: Protect your business from evolving cyber threats with our comprehensive security assessments, vulnerability testing, and risk management strategies. Your data's integrity and confidentiality are our top priorities.
+          feature_icon: shield-check
+          image: build-website.png
+
+        - title: Managed IT Services
+          text: Reduce downtime and boost productivity with our proactive managed services. We offer continuous network monitoring, responsive help desk support, and regular server maintenance to keep your operations running smoothly.
+          feature_icon: computer-desktop
+          image: build-website.png
+
+        - title: Network Design and Implementation
+          text: Build a robust and reliable network infrastructure with our design and implementation services. We ensure optimal performance and connectivity tailored to your business requirements.
+          feature_icon: wifi
+          image: build-website.png
+
+        - title: Data Backup and Recovery
+          text: Safeguard your critical data with our reliable backup solutions and swift recovery services, ensuring business continuity even in the face of unexpected events.
+          feature_icon: database
+          image: build-website.png
     design:
-      # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
-      text: ""
-      items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
+
+  # - block: testimonials
+  #   content:
+  #     title: What Our Clients Say
+  #     text: Hear from businesses that trust MROSSE I.T Services.
+  #     items:
+  #       - name: "Alex Johnson"
+  #         role: "CEO, TechCorp"
+  #         image: "testimonial-1.jpg"
+  #         text: "MROSSE I.T Services transformed our infrastructure, enhancing security and efficiency. Highly recommended!"
+
   - block: cta-card
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
+      title: Secure and Optimize Your IT Today
+      text: Get in touch with us and discover the power of expert IT solutions.
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Contact Us
+        url: https://mrosse.com/contact
     design:
       card:
-        # Card background color (CSS class)
         css_class: "bg-primary-700"
-        css_style: ""
 ---
